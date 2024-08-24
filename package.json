@@ -15,7 +15,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky",
-    "lint": "eslint",
+    "lint": "eslint ./src",
     "fix-vulnerabilities": "npx yarn-audit-fix && npx browserslist --update-db"
   },
   "dependencies": {
