@@ -15,13 +15,20 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky",
+    "lint": "eslint",
     "fix-vulnerabilities": "npx yarn-audit-fix && npx browserslist --update-db"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
     "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
     "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0",
     "vite": "^5.4.2"
   },
   "engines": {
