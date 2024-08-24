@@ -1,0 +1,26 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#fbf78e",
+    "statusBar.foreground": "#b21cc0"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.eol": "\r\n",
+  "files.encoding": "utf8",
+  "prettier.endOfLine": "lf",
+  "prettier.prettierPath": "./node_modules/prettier",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
