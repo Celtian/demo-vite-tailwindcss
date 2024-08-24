@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: 'https://github.com/Celtian/demo-vite-tailwindcss',
+  base: 'https://Celtian.github.io/demo-vite-tailwindcss',
 });
