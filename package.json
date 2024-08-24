@@ -1,19 +1,31 @@
 {
   "name": "demo-vite-tailwindcss",
-  "private": true,
   "version": "0.0.0",
+  "description": "Demo of Vite & Tailwindcss",
   "type": "module",
+  "author": {
+    "name": "Dominik Hladík",
+    "email": "dominik.hladik@seznam.cz",
+    "url": "https://github.com/Celtian"
+  },
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "fix-vulnerabilities": "npx yarn-audit-fix && npx browserslist --update-db"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "husky": "^9.1.5",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.1"
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  },
+  "engines": {
+    "node": ">=22 <24",
+    "npm": "please-use-yarn"
   }
 }
