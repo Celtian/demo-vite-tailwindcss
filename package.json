@@ -19,22 +19,23 @@
     "fix-vulnerabilities": "npx yarn-audit-fix && npx browserslist --update-db"
   },
   "dependencies": {
-    "tailwind-scrollbar": "^3.1.0"
+    "tailwind-scrollbar": "^4.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
-    "@eslint/js": "^9.39.1",
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4.2.2",
     "autoprefixer": "^10.4.27",
-    "eslint": "^9.39.1",
+    "eslint": "^10.0.3",
     "globals": "^17.4.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
-    "tailwindcss": "^3.4.13",
+    "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.47.0",
+    "typescript-eslint": "^8.57.1",
     "vite": "^8.0.1"
   },
   "engines": {

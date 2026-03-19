@@ -15,7 +15,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="${viteLogo}" alt="Vite logo" height="120" width="120" />
     </a>
     <div>
-      <button id="counter" type="button" class="py-2 px-4 rounded bg-yellow-200 hover:bg-yellow-300 text-lg shadow"></button>
+      <button id="counter" type="button" class="py-2 px-4 rounded bg-yellow-200 hover:bg-yellow-300 text-lg shadow cursor-pointer"></button>
     </div>
   </main>
   <footer class="bg-yellow-200 shadow">
