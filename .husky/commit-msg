@@ -1,1 +1,1 @@
-npx --no-install commitlint --edit
+quick-commitlint "$1"
